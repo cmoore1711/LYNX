@@ -70,9 +70,11 @@ namespace LYNX_FTY_V3
 
         //Bad Btn
         private void badBtn_Click(object sender, EventArgs e)
-        {                           
-            string reason = Microsoft.VisualBasic.Interaction.InputBox("Reason for bad part: ", "Reason", "", 0, 0);
-            entriesListbox.Items.Add(DateTime.Now.ToString("h:mm:ss tt") + ", BAD, Reason: " + "#"+reason+" (Scratch/ Digs)");
+        {
+            //string reason = Microsoft.VisualBasic.Interaction.InputBox("Reason for bad part: ", "Reason", "", 0, 0);
+            //^^Not working with mono
+
+            entriesListbox.Items.Add(DateTime.Now.ToString("h:mm:ss tt") + ", BAD, Reason: " + "#15"+" (Scratch/ Digs)");
 
         }
 

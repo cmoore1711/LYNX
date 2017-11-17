@@ -227,11 +227,10 @@
             // 
             // txtLbl
             // 
-            this.txtLbl.AutoSize = true;
             this.txtLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLbl.Location = new System.Drawing.Point(13, 9);
             this.txtLbl.Name = "txtLbl";
-            this.txtLbl.Size = new System.Drawing.Size(421, 33);
+            this.txtLbl.Size = new System.Drawing.Size(509, 33);
             this.txtLbl.TabIndex = 40;
             this.txtLbl.Text = "Please enter the Work Order:";
             // 
